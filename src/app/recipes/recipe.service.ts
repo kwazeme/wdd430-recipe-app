@@ -36,5 +36,9 @@ export class RecipeService {
         this.slsService.addIngredients(ingredients);
     }
 
+    getRecipe(index: number) {
+        return this.recipes[index];
+    };
+
 
 }
